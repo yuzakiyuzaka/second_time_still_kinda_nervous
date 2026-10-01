@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>helpdesk - week 3</title>
+
+    <style>
+        body {
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.swinburne.edu.au/" target="_blank">
+        <img src="logo.png" alt="Swinburne University Logo" width="200" height="100">
+    </a>
+    <h1>CWS Help Desk Application</h1>
+
+    <form action="" method="post">
+        <p>
+            The Help Desk is located in ATC620. Open 10:30 to 19:00 Monday to Friday.
+        </p>
+        <p>
+            Check BlackBoard for when CWA tutors will be there.
+        </p>
+
+        <fieldset>
+            <legend>Student details</legend>
+                <label for="studentID">Student ID</label>
+                <input type="text" name="studentID" required><br><br>
+
+                <label for="given_name">Given Name</label>
+                <input type="text" name="given_name" maxlength="15">
+
+                <label for="family_name">Family Name</label>
+                <input type="text" name="family_name" required pattern="[a-zA-Z]+">
+        </fieldset>
+        <fieldset>
+            <legend>Your unit</legend>
+                <input type="radio" name="10011">
+                <label for="10011">COS10011</label>
+
+                <input type="radio" name="60004">
+                <label for="60004">COS60004</label>
+
+                <input type="radio" name="60007">
+                <label for="60007">COS60007</label>
+
+                <br><br>
+
+                <label for="tutor">Your Tutor</label>
+                <select name="tutor" id="tutor" required>
+                    <option value="">Please Select</option>
+                    <option value="wilson1">Wilson 1</option>
+                    <option value="wilson2">Wilson 2</option>
+                    <option value="wilson3">Wilson 3</option>
+                </select>
+                <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Issue</legend>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html" checked>
+
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">
+
+            <label for="javasct">JavaScript</label>
+            <input type="checkbox" name="javasct" id="javasct">
+
+            <label for="php">PHP</label>
+            <input type="checkbox" name="php" id="php">
+
+            <label for="mysql">MySQL</label>
+            <input type="checkbox" name="mysql" id="mysql">
+
+            <br><br>
+
+            <label for="description">Description of Issue</label><br>
+            <textarea name="description" id="description" rows="5" cols="25" placeholder="Write description of your problems here..."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferred Date / Time</legend>
+            <label for="date">Date</label>
+            <input type="text" name="date" id="date" placeholder="dd/mm/yyyy" pattern="dd/mm/yyyy">
+
+            <br>
+            <label for="time">Time</label>
+            <input type="text" name="time" id="time" placeholder="00:00" pattern="hh:mm">
+        </fieldset>
+
+        <input type="submit" name="submit" id="submit" value="Book">
+        <input type="reset" name="reset" id="reset" value="Reset Form">
+    </form>
+</body>
+</html>
