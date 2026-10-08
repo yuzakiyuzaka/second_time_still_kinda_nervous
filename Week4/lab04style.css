@@ -8,11 +8,9 @@ h2 {
 
 body {
     font-family: Calibri, sans-serif;
-    border-left: 4px lightblue;
     padding: 10%;
     padding-top: 0
 }
-
 aside {
     font-style: italic;
 }
