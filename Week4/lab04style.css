@@ -15,7 +15,7 @@ aside {
     font-style: italic;
 }
 
-aside:hover {
+aside:hover, a:hover {
     background-color: lightblue;
     border-color: darkblue;
 }
@@ -48,5 +48,5 @@ a {
     color: black;
 }
 #images {
-    text-align: center
+    text-align: center;
 }
