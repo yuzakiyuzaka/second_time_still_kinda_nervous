@@ -1,0 +1,54 @@
+h1 {
+    color: purple
+}
+
+h2 {
+    color: teal
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    border-left: 4px lightblue;
+    padding: 10%;
+    padding-top: 0
+}
+
+aside {
+    font-style: italic;
+}
+
+aside:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+nav a {
+    color: black;
+    border: 4px solid #ccc;
+    padding: 0.2em 0.6em;
+    text-decoration: none;
+}
+
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.Month {
+    text-align: right;
+}
+
+.square_nested {
+    list-style-type: square;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+a {
+    color: black;
+}
+#images {
+    text-align: center
+}
