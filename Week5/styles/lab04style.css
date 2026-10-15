@@ -100,7 +100,7 @@ ol, ul, dl {
 }
 
 article {
-     min-width:30em; 
+     min-width:30em;
 }
 
 figure {
@@ -123,3 +123,5 @@ footer p:nth-child(2) {
 footer p:last-child {
     text-align:right;
 }
+
+
