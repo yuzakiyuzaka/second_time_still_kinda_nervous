@@ -1,0 +1,125 @@
+header {
+    border: 1px solid darkgray;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    color: purple
+}
+
+h2 {
+    color: teal
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+aside {
+    font-style: italic;
+    border: 4px inset purple;
+    border-radius: 14px;
+    padding: 1em;
+    margin: 1em;
+    background:url(./images/fade.jpg) repeat-x top left;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+aside:hover {
+    display: block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+/* aside:hover, a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+} */
+
+nav a {
+    color: black;
+    border: 4px solid #ccc;
+    padding: 0.2em 0.6em;
+    text-decoration: none;
+}
+
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.Month {
+    text-align: right;
+}
+
+.square_nested {
+    list-style-type: square;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+table {
+    margin: auto;
+}
+
+#lists {
+    float: left;
+}
+
+#tables {
+    float: right;
+}
+
+#hyperlinks {
+    clear:both;
+    float: left;
+}
+
+a {
+    color: black;
+}
+#images {
+    float: right;
+}
+
+#lists, #tables, #hyperlinks, #images {
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl {
+    text-align:left;
+}
+
+article {
+     min-width:30em; 
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+footer {
+    border-top: 4px plum double ;
+    clear: both;
+}
+
+footer p:first-child { 
+    float:left; 
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    text-align:right;
+}
